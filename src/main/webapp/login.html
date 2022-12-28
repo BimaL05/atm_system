@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ATM</title>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <!-- <script src="login.js"></script> -->
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="row" style="margin-top:20px">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                <form role="form" method="post" action="login">
+                    <fieldset>
+                        <h2 class="sign-in">Account Sign In</h2>
+                        <hr class="colorgraph">
+                        <div class="form-group">
+                            <input type="number" name="phone" id="phone" class="form-control input-lg" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="pin" id="pin" class="form-control input-lg" placeholder="PIN" required>
+                        </div>
+                        
+                        <div class="form-group">
+                        	Fingerprint
+            				<input class="fingerprint" type="file" name="finger">
+                        </div>
+
+                        <a href="" class="pin">Forgot PIN?</a>
+                        
+                        <!-- <div class="button-checkbox">
+                        	<a href="" class="btn btn-link pull-right">Forgot PIN?</a>
+                            <button type="button" class="btn" data-color="info">Remember Me</button>
+                            <input type="checkbox" name="remember_me" id="remember_me" checked="checked" class="hidden">
+                        </div> -->
+
+                        <hr class="colorgraph">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                               <input type="submit" class="btn btn-lg btn-success btn-block" value="Sign In">
+                                <!-- <a href="menu.html" class="btn btn-lg btn-success btn-block">Sign In</a> -->
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <a href="registration.html" class="btn btn-lg btn-primary btn-block" >Sign Up</a>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        
+        </div>
+
+</body>
+</html>

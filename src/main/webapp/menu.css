@@ -1,0 +1,52 @@
+body {
+  /* background-color: rgb(216, 212, 212); */
+  background-color: rgba(181, 179, 179, 0.866);
+  /* background-image: url("atm2.jpg"); */
+  /* background-size:cover; */
+  /* background-position:center; */
+  /* transform: scale(1.2); */
+  /* border: 20px solid black; */
+}
+
+.heading {
+  /* border: 5px solid; */
+  text-align: center;
+  line-height: 100px;
+  padding: 60px 0px 20px 0px;
+}
+.option{
+    text-align: center;
+}
+.main{
+    display: flex;
+}
+.menu1 {
+    flex: 50%;
+    text-align: right;
+    /* border: 2px solid #4caf50; */
+  }
+  .menu2{
+    flex: 50%;
+    margin-left: 50px;
+    /* border: 2px solid #4caf50; */
+}
+
+.btn {
+  /* display: inline-block; */
+  background-color: rgb(230, 230, 230);
+  border: 2px solid rgb(220, 220, 220);
+  border-radius: 20px;
+  margin: 15px;
+  padding: 12px 28px;
+  font-size: 16px;
+  transition-duration: 1s;
+  cursor: pointer;
+  /* text-align: center; */
+  /* text-decoration: none; */
+}
+.btn:hover {
+  background-color: #4cd367; /* 4caf50 */
+  border: 2px solid white;
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  /* color: black; */
+}
